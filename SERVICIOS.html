@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asignaturas</title>
+  <style>
+    body {
+      font-family: "Courier New", Courier, monospace;
+      background-color: #808080;
+      margin: 0;
+      padding: 0px;
+    }
+
+nav{background-color: white;}
+	nav ul{list-style-type:none;margin:0; padding:0; overflow:hidden;}
+	nav ul li{float:left;}
+	nav ul li a{display:block; color:black; padding: 14px 20px; text-align:center; text-decoration:none;}
+	nav ul li a:hover{background-color:#D3D3D3;}
+	.content{padding:20 px; background-color:#C0C0C0; margin:20px; border-radius: 5px;}
+   
+ h1 {
+      text-align: center;
+      color: black;
+      margin-bottom: 40px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .plato {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .plato:hover {
+      transform: scale(1.02);
+    }
+
+    .plato img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .plato-info {
+      padding: 15px;
+    }
+
+    .plato-nombre {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .plato-descripcion {
+      font-size: 14px;
+      color: #808080;
+      margin-bottom: 10px;
+    }
+
+    .plato-precio {
+      font-size: 18px;
+      font-weight: bold;
+      color: #808080;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ASIGNATURAS DISPONIBLES</h1>
+<nav> 
+		<ul>
+		<li><a href="index.html">inicio</a></li>
+		<li><a href="ACERCA DE.html">Acerca De</a></li>
+		<li><a href="SERVICIOS.html">Servicios</a></li>
+		<li><a href="CONTÁCTANOS.html">Contacto</a></li>
+	</ul>
+	</nav>
+<h1>        </h1>
+
+  <div class="menu">
+    <div class="plato">
+      <img src="español.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Español-Literatura</div>
+        <div class="plato-descripcion">Adentrate dentro del mundo de las oraciones, palabras y textos</div>
+        <div class="plato-precio">$100mxn (clase) </div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="fisica.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Matemático-físico ciencias</div>
+        <div class="plato-descripcion">Conoce las formulas y métodos de resolución a los problemas matemáticos y físicos.</div>
+        <div class="plato-precio">$100mxn (clase)</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="ingles.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Lenguajes</div>
+        <div class="plato-descripcion">Explora los diferentes idiomas que existen por todo el mundo y conviertete en una persona bilingue.</div>
+        <div class="plato-precio">$100mxn (clase)</div>
+      </div>
+    </div>
+
+    <div class="plato">
+      <img src="artes.jpg">
+      <div class="plato-info">
+        <div class="plato-nombre">Introducción a las artes</div>
+        <div class="plato-descripcion">Sumergete dentro del mundo de los colores, dibujo y baile por medio de diferentes técnicas..</div>
+        <div class="plato-precio">$100mxn (clase)</div>
+      </div>
+   </div>
+<div class="plato">
+      <img src="geografia.jpeg">
+      <div class="plato-info">
+        <div class="plato-nombre">Ciencias de la Tierra</div>
+        <div class="plato-descripcion">Investiga diversos aspectos relacionados a la tierra y sus formas..</div>
+        <div class="plato-precio">$100mxn (clase)</div>
+      </div>
+    </div>
+
+<div class="plato">
+      <img src="quimica.avif">
+      <div class="plato-info">
+        <div class="plato-nombre">Ciencias de la Química</div>
+        <div class="plato-descripcion">aprende formas, reacciones y formulas de los elementos químicos ..</div>
+        <div class="plato-precio">$100mxn (clase)</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
